@@ -67,7 +67,7 @@ class OwnHomeData(Writer):
         self.writeScID(16, 45) # Menu Brawler
         
         self.writeString("CA")
-        self.writeString("Ultracore")
+        self.writeString("http://ultracore.cf/")
         
         self.writeVInt(1) # v26 - Array
         self.writeInt(0)
@@ -216,7 +216,7 @@ class OwnHomeData(Writer):
         self.writeVInt(0)
         self.writeVInt(1)
         
-        self.writeString("Ultracore")
+        self.writeString("Ultracore V34")
         self.writeByte(1) #nameset
         self.writeInt(0)
         
